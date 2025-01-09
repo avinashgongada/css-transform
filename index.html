@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: auto;
+            padding: auto;
+            box-sizing: border-box;
+        }
+        .container{
+            transition: all;
+            transition-duration: 2sec;
+            padding: 10px;
+        }
+        .ele1:hover{
+            transform: translate(100px);
+        }
+        .ele2:hover{
+            transform: rotate(180deg);
+        }.ele3:hover{
+            transform: scale(1.5);
+        }.ele4:hover{
+            transform: skew(30deg);
+        }
+        
+            
+            
+    
+            
+        
+       .ele1{
+        background-image: url(images/1440x810_cmsv2_34816e51-346c-525e-9d16-c92108f88346-7388686.webp);
+        height: 90vh; 
+        background-size: 100% 100%;  
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+    
+        
+        
+    }
+    .ele2{
+        background-image: url(images/98bd24015f507d6148cc72eac1f8eda415e0de53177627a3263634061c19ad4e._SX1080_FMjpg_.jpg);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        
+        background-position: center;
+    }
+    .ele3{
+        background-image: url(images/hq720.jpg);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+    }.ele4{
+        background-image: linear-gradient( yellow ,green, red ) ;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center;
+        
+        
+    }
+    
+    @media  screen and (width<576px) {
+        
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="ele1"></div>
+    <div class="ele2"></div>
+    <div class="ele3"></div>
+    <div class="ele4"></div>
+    </div>
+</body>
+</html>
